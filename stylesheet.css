@@ -12,7 +12,7 @@
 }
 
 .logo{
-background: green;
+background: red;
 float: left;
 margin-right: 25px;
 padding: 20px;
@@ -20,7 +20,6 @@ padding: 20px;
 
 .leftMenu{
 float: left;
-background: red;
 }
 
 .leftMenu ul{
@@ -32,11 +31,13 @@ background: red;
   display: inline-block;
   padding: 20px;
 }
+.LeftMenu ul li a{
+  color: white;
+  text-decoration: none;
+}
 
 .rightMenu{
-background: blue;
 float: right;
-background: green;
 }
 
 .rightMenu ul{
@@ -48,14 +49,52 @@ background: green;
   display: inline-block;
   padding: 20px;
 }
-
+.rightMenu ul li a{
+  color: white;
+  text-decoration: none;
+}
 /*============== Large Image Section ============*/
 
 #largeImage{
   padding: 200px 25px;
-  background: url(https://az616578.vo.msecnd.net/files/2016/08/21/636073586712199288-874291653_the%20office.jpg) no-repeat center fixed;
+  background: url(http://vignette1.wikia.nocookie.net/theoffice/images/8/81/Office_S9_Promotional_Poster.jpg/revision/latest?cb=20120910030250) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.description-box{
+  width: 50%;
+
+  color: white;
+    text-shadow: 1px 1px 2px #000000;
+}
+.description-box h1{
+  font-family: serif;
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0;
+  color: white;
+}
+.description-box h3{
+  font-family: helvetica;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0;
+  color: white;
+}
+.description-box h4{
+  font-weight: 300;
+  font-family: helvetica;
+  margin: 0;
+  color: white;
+}
+.description-box p{
+  float: left;
+  margin: 25px 0!important;
+  font-family: helvetica;
+  font-size: 18px;
+  margin: 0;
+  color: white;
 }
