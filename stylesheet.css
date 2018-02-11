@@ -1,3 +1,4 @@
+/*============== Header/Nav Section ============*/
 .logo, .leftMenu, .rightMenu{
   display: inline-block;
 }
@@ -46,4 +47,15 @@ background: green;
 .rightMenu ul li{
   display: inline-block;
   padding: 20px;
+}
+
+/*============== Large Image Section ============*/
+
+#largeImage{
+  padding: 200px 25px;
+  background: url(https://az616578.vo.msecnd.net/files/2016/08/21/636073586712199288-874291653_the%20office.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
