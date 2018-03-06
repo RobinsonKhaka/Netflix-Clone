@@ -134,3 +134,20 @@ float: right;
   background: rgba(0, 0, 0, 0.9);
   color: white;
 }
+/*============== Video Section ============*/
+#videoSection{
+  width: 100%;
+  background: black;
+}
+.row{
+  width: 100%;
+  font-size: 0;
+}
+.videoBoxes{
+  display: inline-block;
+  background: red;
+  width: 15%;
+  height: 150px;
+  font-size: 16px;
+  margin: 2.5%;
+}
