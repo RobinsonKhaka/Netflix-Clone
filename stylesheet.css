@@ -8,11 +8,13 @@
 }
 
 #header{
-  background: black;
+  background: #141414;
   color: white;
   overflow: auto;
   padding-left: 25px;
   padding-right: 25px;
+  font-family: helvetica;
+
 }
 
 #header a{
@@ -69,7 +71,7 @@ float: right;
 
 #largeImage{
   padding: 200px 25px;
-  background: -webkit-linear-gradient(50deg, rgba(50, 135, 255, .2)1%,#000000 100%),
+  background: -webkit-linear-gradient(-150deg, rgba(50, 135, 255, .3)1%,#000000 100%),
   url(http://vignette1.wikia.nocookie.net/theoffice/images/8/81/Office_S9_Promotional_Poster.jpg/revision/latest?cb=20120910030250) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -114,34 +116,43 @@ float: right;
 
 .button1{
   display: inline-block;
-  padding: 10px 18px;
-  background: black;
+  padding: 20px 28px;
+  background: rgba(20, 20, 20, .8);
   border: 2px solid #000;
   color: #FFF;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .button1:hover{
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.button2{
-  display: inline-block;
-  padding: 10px 18px;
-  border: 2px solid #000;
-  color: #FFF;
-  cursor: pointer;
+  background: white;
   color: black;
 }
 
+.fa-play{
+  margin-right: 10px;
+}
+.button2{
+  display: inline-block;
+  padding: 20px 28px;
+  background: rgba(20, 20, 20, .8);
+  border: 2px solid #000;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.fa-plus{
+  margin-right: 10px;
+}
 .button2:hover{
-  background: rgba(0, 0, 0, 0.9);
-  color: white;
+  background: white;
+  color: black;
 }
 /*============== Video Section ============*/
 #videoSection{
   width: 100%;
-  background: black;
+  background: rgba(20, 20, 20, .9);
 }
 .row{
   width: 100%;
@@ -151,15 +162,28 @@ float: right;
   display: inline-block;
   background: red;
   width: 300px;
-  height: 150px;
-  font-size: 16px;
+  min-height: 150px;
+  font-size: 15px;
   margin: 2.5%;
   padding: 15px;
 }
 
 .videoBoxes h4{
+  font-family: helvetica;
+  font-weight: 100;
   margin: 0;
+  padding: 0;
+  font-size: 30px;
   color: white;
+}
+
+.videoBoxes p{
+  display: none;
+}
+
+.videoBoxes:hover{
+  opacity: 0.4;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 .video1{
   background: -webkit-linear-gradient(50deg, rgba(50, 135, 255, .2)1%,#000000 100%),
@@ -206,4 +230,25 @@ float: right;
   background-size: cover;
 }
 
-/*============== Video Section ============*/
+/*============== Media Queries ============*/
+
+@media screen and (max-width: 600px) {
+  .videoBoxes{
+    width: 95%;
+    margin: 2.5%;
+  }
+  .videoBoxes h4{
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 30px;
+  }
+  .videoBoxes p{
+    display: block;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+.button1{
+  margin-bottom: 5px;
+}
