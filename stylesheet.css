@@ -151,3 +151,48 @@ float: right;
   font-size: 16px;
   margin: 2.5%;
 }
+
+.video1{
+  background: -webkit-linear-gradient(50deg, rgba(50, 135, 255, .2)1%,#000000 100%),
+  url(http://www.togomeetings.com/wp-content/uploads/2017/07/elegant-panoramic-movie-posters-and-cool-ideas-of-movie-poster-horizontal-13.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.video2{
+  background: -webkit-linear-gradient(50deg, rgba(50, 135, 255, .2)1%,#000000 100%),
+  url(http://pixelatedgeek.com/wp-content/uploads/2017/03/gitsonline48x19-6horizontalstand.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.video3{
+  background: -webkit-linear-gradient(50deg, rgba(50, 135, 255, .2)1%,#000000 100%),
+  url(https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fblogs-images.forbes.com%2Fscottmendelson%2Ffiles%2F2017%2F07%2FJustice-League-SDCC-Banner.jpg%3Fwidth%3D960) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.video4{
+  background: -webkit-linear-gradient(50deg, rgba(50, 135, 255, .2)1%,#000000 100%),
+  url(https://shyfyy.files.wordpress.com/2017/01/kongskullisland-5.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.video5{
+  background: -webkit-linear-gradient(50deg, rgba(50, 135, 255, .2)1%,#000000 100%),
+  url(http://thesecondtake.com/wp-content/uploads/2017/08/Blade-Runner-posters-THUMB-777x437.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
